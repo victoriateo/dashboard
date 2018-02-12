@@ -25,18 +25,17 @@ import FontAwesome from '../../views/Icons/FontAwesome/';
 import SimpleLineIcons from '../../views/Icons/SimpleLineIcons/';
 import * as firebase from 'firebase';
 
-// Initialize Firebase
-// TODO: Replace with your project's customized code snippet
 
-    var config = {
-        apiKey: "AIzaSyDfnwPPBNg1f_c4C6c9gZ9tC3ZQKM5lWGo",
-        authDomain: "week5-a20b9.firebaseapp.com",
-        databaseURL: "https://week5-a20b9.firebaseio.com",
-        projectId: "week5-a20b9",
-        storageBucket: "week5-a20b9.appspot.com",
-        messagingSenderId: "983376771166"
-    };
-    firebase.initializeApp(config);
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDfnwPPBNg1f_c4C6c9gZ9tC3ZQKM5lWGo",
+    authDomain: "week5-a20b9.firebaseapp.com",
+    databaseURL: "https://week5-a20b9.firebaseio.com",
+    projectId: "week5-a20b9",
+    storageBucket: "week5-a20b9.appspot.com",
+    messagingSenderId: "983376771166"
+  };
+  firebase.initializeApp(config);
 
 
 class Full extends Component {
